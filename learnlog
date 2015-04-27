@@ -29,4 +29,3 @@ rm test
 //？a文件更改后commit，b文件更改
 //这时如何回退a文件，同时不影响更改后的b文件
 // 用checkout回不来（因为版本库已经被修改
-add this word
