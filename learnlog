@@ -22,7 +22,10 @@ git diff <file>
 git checkout -- <file>			//丢弃工作区的修改，恢复到最近一次git commit和git add的状态
 
 //删除文件
-
-
-
-
+rm test
+	1.1 git rm test
+	1.2 git commit
+	2.1 git checkout -- test
+//？a文件更改后commit，b文件更改
+//这时如何回退a文件，同时不影响更改后的b文件
+// 用checkout回不来（因为版本库已经被修改
